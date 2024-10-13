@@ -24,7 +24,7 @@ namespace Tyuiu.NefedovIS.Sprint2.Task3.V18.Lib
             {
                 y = x + 10 * x - (1 / x);
             }
-            return y;
+            return Math.Round(y, 3);
         }
     }
 }
