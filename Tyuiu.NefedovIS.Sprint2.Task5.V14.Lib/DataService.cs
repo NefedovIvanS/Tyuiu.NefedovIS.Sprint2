@@ -19,19 +19,19 @@ namespace Tyuiu.NefedovIS.Sprint2.Task5.V14.Lib
                     res = days[d];
                     break;
                 case 3:
-                    res = days[d];
+                    res = days[d + 1];
                     break;
                 case 4:
-                    res = days[d];
+                    res = days[d + 2];
                     break;
                 case 5:
-                    res = days[d];
+                    res = days[d + 3];
                     break;
                 case 6:
-                    res = days[d];
+                    res = days[d + 4];
                     break;
                 case 0:
-                    res = days[d];
+                    res = days[d + 5];
                     break;
             }
             return res;
