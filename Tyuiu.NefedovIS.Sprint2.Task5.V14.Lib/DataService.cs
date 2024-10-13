@@ -6,13 +6,14 @@ namespace Tyuiu.NefedovIS.Sprint2.Task5.V14.Lib
     {
         public string FindDayName(int k, int d)
         {
-            string[] days = { "","Понедельник", "Вторник", "Среда", "Четверг",
+            string[] days = { "Понедельник", "Вторник", "Среда", "Четверг",
+                "Пятница", "Суббота", "Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг",
                 "Пятница", "Суббота", "Воскресенье" };
             string res = "";
             switch (k % 7)
             {
                 case 1:
-                    res = days[d];
+                    res = days[d - 1];
                     break;
                 case 2:
                     res = days[d];
